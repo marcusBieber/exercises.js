@@ -5,7 +5,7 @@
 // Der Schlüssel 'b' soll den Wert 3 haben.
 
 const charObj = {
-    a: 2,
-    b: 3
-}
-console.log(charObj)
+  a: 2,
+  b: 3,
+};
+console.log(charObj);

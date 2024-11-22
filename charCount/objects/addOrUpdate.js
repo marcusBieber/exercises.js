@@ -7,8 +7,8 @@
 let charCount = { a: 2, b: 3 };
 
 function addOrUpdate(obj, key, value) {
-    obj[key] = value
+  obj[key] = value;
 }
 
-addOrUpdate(charCount, "c", 8)
-console.log(charCount) // { a: 2, b: 3, c: 8 }
+addOrUpdate(charCount, "c", 8);
+console.log(charCount); // { a: 2, b: 3, c: 8 }

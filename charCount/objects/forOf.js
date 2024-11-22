@@ -12,17 +12,17 @@ function forOf(obj) {
 }   !!!--Objekte sind nicht ohne weiteres iterabel, entweder for..in oder Object.entries() nutzen--!!! 
 */
 function forOf(obj) {
-    for (let [key, value] of Object.entries(obj)) {
-       console.log(`Schlüssel: ${key}, Wert: ${value}`)
-    }
+  for (let [key, value] of Object.entries(obj)) {
+    console.log(`Schlüssel: ${key}, Wert: ${value}`);
+  }
 }
 
 //forOf(charCount)
 
 function forIn(obj) {
-    for (let key in obj) {
-       console.log(`Schlüssel: ${key}, Wert: ${obj[key]}`)
-    }
+  for (let key in obj) {
+    console.log(`Schlüssel: ${key}, Wert: ${obj[key]}`);
+  }
 }
 
-forIn(charCount)
+forIn(charCount);
